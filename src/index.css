@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.img_bg_container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.voice_box {
+  position: absolute;
+  width: 120px;
+  height: 25px;
+  border: 1px solid;
+}
+
+@media (min-width:1024px) {
+  .img_bg_container {
+    width: 50%;
+  }
+}
